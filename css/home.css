@@ -1,0 +1,63 @@
+body{
+    /* background: #f2f2f2; */
+    font-family: 'Open Sans', sans-serif; 
+    /* background-image: url(https://www.tuningblog.eu/wp-content/uploads/2018/05/Pink-Mercedes-G-500-4x4%C2%B2-Chloe-Hair-Forgiato-Tuning-2.jpg); */
+    background-repeat: no-repeat; 
+    background-color: pink;
+    background-size: cover;
+  } 
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+  
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #1d373b;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #101617;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #101617;
+    background: #101617;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  
+
+.images{
+  width: 500px;
+  height: 400px;
+}
+.grid-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 20px;
+}
+
