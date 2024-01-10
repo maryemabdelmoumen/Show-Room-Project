@@ -70,6 +70,7 @@ function render(data) {
               <h3> ${element.productName}</h3> 
               <h1> ${element.productCategory}</h1>
               <h1> ${element.productDescription}</h1>
+              <h1>${element.productPrice}</h1>
               </div>
               </div>`)
             })
