@@ -1,63 +1,91 @@
-body{
-    /* background: #f2f2f2; */
-    font-family: 'Open Sans', sans-serif; 
-    /* background-image: url(https://www.tuningblog.eu/wp-content/uploads/2018/05/Pink-Mercedes-G-500-4x4%C2%B2-Chloe-Hair-Forgiato-Tuning-2.jpg); */
-    background-repeat: no-repeat; 
-    background-color: pink;
-    background-size: cover;
-  } 
-  *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins',sans-serif;
-    box-sizing: border-box;
+body {
+  background: url('https://cdn-s-www.ledauphine.com/images/38AE0CBD-B8AB-4F1C-9263-6AD0F5347DE7/NW_raw/pour-la-premiere-fois-le-moteur-type-a-haut-regime-de-525-ch-(386-kw)-qui-equipe-la-911-gt3-rs-est-associe-a-une-boite-manuelle-et-un-embrayage-allege-photo-porsche-1691411143.jpg') center/cover fixed no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-  
-  .search {
-    width: 100%;
-    position: relative;
-    display: flex;
-  }
-  
-  .searchTerm {
-    width: 100%;
-    border: 3px solid #1d373b;
-    border-right: none;
-    padding: 5px;
-    height: 20px;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    color: #9DBFAF;
-  }
-  
-  .searchTerm:focus{
-    color: #101617;
-  }
-  
-  .searchButton {
-    width: 40px;
-    height: 36px;
-    border: 1px solid #101617;
-    background: #101617;
-    text-align: center;
-    color: #fff;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
-  /*Resize the wrap to see the search bar change!*/
-  
-
-.images{
-  width: 500px;
-  height: 400px;
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8); 
 }
-.grid-container{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-gap: 20px;
+
+.searchTerm {
+  width: 70%;
+  border: 3px solid #3b1d33;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #bf9dbd;
+}
+
+.searchTerm:focus {
+  color: #101617;
+}
+
+.searchButton {
+  width: 30px;
+  height: 36px;
+  background: #3b1d2f;
+  border: 1px solid #3b1d33;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+.searchButton:hover {
+  background: #171016;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.images {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#add,
+#delete {
+  background-color: #af4c89;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#add:hover,
+#delete:hover {
+  background-color: #45a049;
 }
 
